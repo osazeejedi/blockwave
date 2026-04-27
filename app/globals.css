@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #111B27;
+  --navy: #1B3A52;
+  --blue: #2B6CB0;
+  --sky: #63A8D8;
+  --amber: #F59E0B;
+  --surface: #F8FBFF;
+  --rule: #DDE3EC;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #ffffff;
+  color: var(--ink);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Diagonal pattern overlay used across hero sections */
+.diagonal-lines::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    38deg,
+    transparent,
+    transparent 22px,
+    rgba(255, 255, 255, 0.018) 22px,
+    rgba(255, 255, 255, 0.018) 24px
+  );
+  pointer-events: none;
+}
+
+.diagonal-lines-strong::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    38deg,
+    transparent,
+    transparent 22px,
+    rgba(255, 255, 255, 0.04) 22px,
+    rgba(255, 255, 255, 0.04) 24px
+  );
+  pointer-events: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rule);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sky);
+}
+
+/* Selection */
+::selection {
+  background: var(--sky);
+  color: var(--ink);
+}
+
+/* Reusable utility classes from original design */
+.eyebrow-mono {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section-h2 {
+  font-size: clamp(32px, 3.5vw, 48px);
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  line-height: 1.05;
+}
+
+/* Reveal animation helpers */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-in.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
