@@ -3,9 +3,9 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata: Metadata = {
-  title: "WhiteBox — Engineer Clarity",
+  title: "WhiteBox - Engineer Clarity",
   description:
-    "WhiteBox is a tech consulting firm delivering software engineering, strategic consulting, and structured professional training — built for teams and individuals who think in systems.",
+    "WhiteBox is a tech consulting firm delivering software engineering, strategic consulting, and structured professional training—built for teams and individuals who think in systems.",
 };
 
 export default function RootLayout({
