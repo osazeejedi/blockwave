@@ -57,10 +57,12 @@ export default function Nav() {
         </div>
 
         <Link
-          href="/courses"
-          className="rounded-md bg-blue px-5 py-2 text-[13px] font-semibold tracking-wide text-white transition-colors hover:bg-sky"
+          href="/apply"
+          className={`rounded-md px-5 py-2 text-[13px] font-semibold tracking-wide text-white transition-colors hover:bg-sky ${
+            isActive("/apply") ? "bg-sky" : "bg-blue"
+          }`}
         >
-          Explore Programmes →
+          Apply Now →
         </Link>
       </div>
     </nav>

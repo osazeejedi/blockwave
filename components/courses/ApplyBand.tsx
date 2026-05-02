@@ -33,10 +33,10 @@ export default function ApplyBand() {
           PROGRAMME START · SEPTEMBER 2025 · PART-TIME · ONLINE
         </div>
         <a
-          href="https://whiteboxconsults.com/apply"
+          href="/apply"
           className="inline-flex items-center gap-2 rounded-md bg-white px-8 py-3.5 text-[15px] font-bold tracking-wide text-blue transition-all hover:-translate-y-0.5 hover:shadow-2xl"
         >
-          Apply Now → whiteboxconsults.com/apply
+          Apply Now →
         </a>
       </motion.div>
     </section>
