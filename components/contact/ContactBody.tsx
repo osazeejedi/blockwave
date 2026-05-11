@@ -26,7 +26,9 @@ export default function ContactBody() {
   const [success, setSuccess] = useState(false);
   const [errors, setErrors] = useState<Record<string, boolean>>({});
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const required = ["fname", "lname", "email", "subject", "message"];
@@ -40,11 +42,40 @@ export default function ContactBody() {
       return;
     }
     setErrors({});
+    setSubmitError(null);
     setSubmitting(true);
-    setTimeout(() => {
-      setSubmitting(false);
+
+    const payload = {
+      inquiryType: inquiryType,
+      firstName: String(formData.get("fname") || "").trim(),
+      lastName: String(formData.get("lname") || "").trim(),
+      email: String(formData.get("email") || "").trim(),
+      phone: String(formData.get("phone") || "").trim(),
+      company: String(formData.get("company") || "").trim(),
+      role: String(formData.get("role") || "").trim(),
+      subject: String(formData.get("subject") || "").trim(),
+      message: String(formData.get("message") || "").trim(),
+      source: String(formData.get("source") || "").trim(),
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        const json = await res.json().catch(() => ({}));
+        throw new Error((json as { error?: string }).error || "Submission failed. Please try again.");
+      }
+
       setSuccess(true);
-    }, 1100);
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -195,6 +226,12 @@ export default function ContactBody() {
                       </a>
                     </span>
                   </label>
+
+                  {submitError && (
+                    <p className="rounded-md border border-red-200 bg-red-50 px-4 py-3 text-[13px] text-red-600">
+                      {submitError}
+                    </p>
+                  )}
 
                   <div className="mt-2 flex flex-wrap items-center gap-4">
                     <button
