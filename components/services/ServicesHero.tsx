@@ -84,7 +84,11 @@ export default function ServicesHero() {
               key={s.id}
               href={`#${s.id}`}
               className={`flex cursor-pointer items-center gap-4 rounded-[10px] border px-5 py-4 transition-all ${
-                activeId === s.id
+                s.id === "ai-automation"
+                  ? activeId === s.id
+                    ? "border-sky bg-blue/30 ring-1 ring-sky/40"
+                    : "border-sky/60 bg-blue/10 hover:border-sky hover:bg-blue/30"
+                  : activeId === s.id
                   ? "border-sky/40 bg-blue/20"
                   : "border-white/[0.08] bg-white/[0.05] hover:border-sky/40 hover:bg-blue/20"
               }`}
@@ -95,6 +99,11 @@ export default function ServicesHero() {
               <span className="text-[15px] font-semibold text-white">
                 {s.eyebrow.split(" — ")[1]}
               </span>
+              {s.id === "ai-automation" && (
+                <span className="rounded-full bg-sky px-2 py-0.5 font-mono text-[9px] font-bold uppercase tracking-wider text-ink">
+                  New
+                </span>
+              )}
               <span
                 className={`ml-auto text-sm transition-colors ${
                   activeId === s.id ? "text-sky" : "text-white/30"
