@@ -194,6 +194,95 @@ export const SERVICES: ServiceData[] = [
     ],
   },
   {
+    id: "ai-automation",
+    num: "04",
+    eyebrow: "04 — AI Automation",
+    title: "We automate the",
+    titleAccent: "work slowing you down.",
+    summary:
+      "Most businesses are sitting on hundreds of hours of manual, repetitive work — reporting, approvals, data entry, customer responses, and internal processes that could be handled in seconds. WhiteBox identifies exactly where AI creates real leverage in your business and builds the automations that free your team to focus on what only humans can do.",
+    ctaLabel: "Get an Automation Audit →",
+    ctaHref: "/contact",
+    deliverables: [
+      "Process Automation",
+      "AI Assistants",
+      "Report Generation",
+      "Customer Workflows",
+      "Data Processing",
+      "Document Intelligence",
+      "AI Integration",
+      "Workflow Design",
+    ],
+    capabilities: [
+      {
+        name: "Business Process Automation",
+        desc: "We map your most time-consuming workflows and replace manual steps with intelligent automations that run 24/7 without error.",
+      },
+      {
+        name: "AI-Powered Assistants",
+        desc: "Custom AI assistants trained on your business knowledge — handling customer queries, internal FAQs, and document search without adding headcount.",
+      },
+      {
+        name: "Automated Reporting & Insights",
+        desc: "Turn raw data into polished reports and dashboards automatically. Your team gets the answers they need, when they need them — without the manual work.",
+      },
+      {
+        name: "Document & Data Intelligence",
+        desc: "Extract, classify, and act on information locked in PDFs, emails, spreadsheets, and forms. Reduce processing time from hours to seconds.",
+      },
+      {
+        name: "System & Tool Integration",
+        desc: "Connect your existing tools — CRMs, ERPs, spreadsheets, communication platforms — so data flows automatically and nothing falls through the cracks.",
+      },
+    ],
+    processLabel: "How We Engage",
+    steps: [
+      {
+        num: "01",
+        name: "Map",
+        desc: "We spend time understanding your current workflows, bottlenecks, and where your team's time actually goes. No guesswork.",
+      },
+      {
+        num: "02",
+        name: "Prioritise",
+        desc: "We identify the automations with the highest ROI — quick wins first, then a structured roadmap for the rest.",
+      },
+      {
+        num: "03",
+        name: "Build",
+        desc: "We build, test, and deploy automations in weeks, not months. You see results before the engagement ends.",
+      },
+      {
+        num: "04",
+        name: "Hand Over",
+        desc: "Full handover with documentation. Your team can manage and extend what we build.",
+      },
+    ],
+    engagements: [
+      {
+        type: "Audit",
+        name: "Automation Audit",
+        desc: "A structured review of your business operations to identify the top automation opportunities and expected time and cost savings.",
+        duration: "2 WEEKS · FIXED-PRICE REPORT",
+        href: "/contact",
+      },
+      {
+        type: "Project",
+        name: "Build & Deploy",
+        desc: "We design and deliver a set of automations end-to-end — integrated into your existing tools and ready for day-one use.",
+        duration: "4–10 WEEKS · FIXED-PRICE",
+        href: "/contact",
+      },
+      {
+        type: "Setup",
+        name: "AI Assistant Setup",
+        desc: "A custom AI assistant for your business — customer-facing or internal — trained on your content, policies, and processes.",
+        duration: "3–6 WEEKS · FIXED-PRICE",
+        href: "/contact",
+      },
+    ],
+  },
+  {
     id: "professional-training",
     num: "03",
     eyebrow: "03 — Professional Training",
