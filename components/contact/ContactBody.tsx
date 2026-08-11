@@ -17,7 +17,7 @@ const SUBJECT_PLACEHOLDERS: Record<InquiryType, string> = {
   "Software Engineering": "Looking for engineering support on our product",
   "Tech Consulting": "Requesting a strategy advisory session",
   "Training Programme": "Question about the AI Engineering programme",
-  General: "I have a question about WhiteBox",
+  General: "I have a question about Blockwave",
 };
 
 export default function ContactBody() {
@@ -219,7 +219,7 @@ export default function ContactBody() {
                       }`}
                     />
                     <span>
-                      I agree to WhiteBox processing my data to respond to this enquiry. We
+                      I agree to Blockwave processing my data to respond to this enquiry. We
                       never share your information with third parties.{" "}
                       <a href="#" className="text-blue underline">
                         Privacy Policy
@@ -271,7 +271,7 @@ export default function ContactBody() {
                 </div>
                 <div className="mb-3 text-2xl font-bold tracking-tight">Enquiry received.</div>
                 <p className="mx-auto max-w-[480px] text-base leading-[1.7] text-[#3A4A5C]">
-                  Thanks for reaching out. A member of the WhiteBox team will be in touch
+                  Thanks for reaching out. A member of the Blockwave team will be in touch
                   within one business day.
                   <br />
                   <br />
@@ -300,22 +300,22 @@ export default function ContactBody() {
               <div className="flex flex-col gap-5">
                 <ContactItem
                   label="Email"
-                  value="hello@whiteboxconsults.com"
+                  value="hello@Blockwaveconsults.com"
                   sub="For general enquiries"
                 />
                 <ContactItem
                   label="Training"
-                  value="admissions@whiteboxconsults.com"
+                  value="admissions@Blockwaveconsults.com"
                   sub="Programme applications & questions"
                 />
                 <ContactItem
                   label="Consulting"
-                  value="consulting@whiteboxconsults.com"
+                  value="consulting@Blockwaveconsults.com"
                   sub="Engagements & partnerships"
                 />
                 <ContactItem
                   label="Apply"
-                  value="whiteboxconsults.com/apply"
+                  value="Blockwaveconsults.com/apply"
                   sub="Direct programme applications"
                   highlight
                 />

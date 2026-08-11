@@ -7,7 +7,7 @@ import ServicesCta from "@/components/services/ServicesCta";
 import { SERVICES } from "@/lib/services-data";
 
 export const metadata = {
-  title: "WhiteBox — Services",
+  title: "Blockwave — Services",
   description:
     "Software engineering, tech consulting, and professional training — three disciplines, one standard.",
 };

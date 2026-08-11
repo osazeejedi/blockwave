@@ -32,7 +32,7 @@ export default function Values() {
       <div className="mx-auto max-w-[1280px]">
         <Reveal>
           <div className="mb-3 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-blue">
-            Why WhiteBox
+            Why Blockwave
           </div>
           <h2 className="section-h2">Principles we build on.</h2>
         </Reveal>

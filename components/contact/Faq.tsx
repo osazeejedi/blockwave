@@ -19,14 +19,14 @@ const FAQS = [
   },
   {
     q: "Can companies send multiple employees to a programme?",
-    a: "Yes — we offer group enrolment for teams of 3 or more, with a custom onboarding session and dedicated support. Contact us at consulting@whiteboxconsults.com to discuss team pricing.",
+    a: "Yes — we offer group enrolment for teams of 3 or more, with a custom onboarding session and dedicated support. Contact us at consulting@Blockwaveconsults.com to discuss team pricing.",
   },
   {
     q: "Is there a payment plan available?",
-    a: "Yes. We offer income share agreements and instalment plans for qualifying applicants. Details are discussed during the admissions process. Reach out to admissions@whiteboxconsults.com for more information.",
+    a: "Yes. We offer income share agreements and instalment plans for qualifying applicants. Details are discussed during the admissions process. Reach out to admissions@Blockwaveconsults.com for more information.",
   },
   {
-    q: "What is WhiteBox's refund policy?",
+    q: "What is Blockwave's refund policy?",
     a: "Students who withdraw within the first week of a programme receive a full refund. After the first week, pro-rated refunds apply up to the midpoint of the programme. No refunds after the programme midpoint. Consulting engagements are governed by the terms in your service agreement.",
   },
 ];

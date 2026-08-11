@@ -61,7 +61,7 @@ export default function Footer() {
               <Link href="/#about" className="text-[13px] text-white/45 transition-colors hover:text-white">
                 About
               </Link>
-              <a href="https://whiteboxconsults.com/apply" className="text-[13px] text-white/45 transition-colors hover:text-white">
+              <a href="https://Blockwaveconsults.com/apply" className="text-[13px] text-white/45 transition-colors hover:text-white">
                 Apply
               </a>
               <Link href="/contact" className="text-[13px] text-white/45 transition-colors hover:text-white">
@@ -72,8 +72,8 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap items-center justify-between gap-3 pt-6 font-mono text-[10px] tracking-wider text-white/20">
-          <span>© 2025 WhiteBox Consulting Ltd. All rights reserved.</span>
-          <span>whiteboxconsults.com</span>
+          <span>© 2025 Blockwave Consulting Ltd. All rights reserved.</span>
+          <span>Blockwaveconsults.com</span>
         </div>
       </div>
     </footer>

@@ -7,7 +7,7 @@ import ApplyBand from "@/components/courses/ApplyBand";
 import { COURSES } from "@/lib/courses-data";
 
 export const metadata = {
-  title: "WhiteBox — Training Programmes",
+  title: "Blockwave — Training Programmes",
   description:
     "Three structured, project-led training programmes — AI Engineering, Data Science, and Cybersecurity. Online, part-time, cohort-based.",
 };

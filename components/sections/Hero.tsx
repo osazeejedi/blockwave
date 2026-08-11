@@ -60,7 +60,7 @@ export default function Hero() {
           variants={itemVariants}
           className="mb-10 max-w-[460px] text-[17px] leading-[1.7] text-white/50"
         >
-          WhiteBox is a tech consulting firm delivering software engineering, strategic
+          Blockwave is a tech consulting firm delivering software engineering, strategic
           consulting, and structured professional training — built for teams and individuals
           who think in systems.
         </motion.p>

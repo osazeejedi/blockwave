@@ -41,7 +41,7 @@ export default function ApplyHero() {
         >
           Apply to
           <br />
-          <em className="not-italic text-sky">WhiteBox.</em>
+          <em className="not-italic text-sky">Blockwave.</em>
         </motion.h1>
 
         <motion.p

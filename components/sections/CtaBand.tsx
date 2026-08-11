@@ -20,10 +20,10 @@ export default function CtaBand() {
         </h2>
         <p className="mb-9 text-base leading-[1.65] text-white/65">
           Whether you&rsquo;re looking to upskill your team, ship a product, or make a career
-          move in tech — WhiteBox has a programme or engagement designed for you.
+          move in tech — Blockwave has a programme or engagement designed for you.
         </p>
         <a
-          href="https://whiteboxconsults.com/apply"
+          href="https://Blockwaveconsults.com/apply"
           className="inline-flex items-center gap-2 rounded-md bg-white px-8 py-3.5 text-[15px] font-bold tracking-wide text-blue transition-all hover:-translate-y-0.5 hover:shadow-2xl"
         >
           Apply Now →

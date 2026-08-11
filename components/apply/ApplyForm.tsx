@@ -233,7 +233,7 @@ export default function ApplyForm() {
 
                   {/* Source */}
                   <div>
-                    <Label htmlFor="source">How did you hear about WhiteBox?</Label>
+                    <Label htmlFor="source">How did you hear about Blockwave?</Label>
                     <select
                       id="source"
                       name="source"
@@ -256,7 +256,7 @@ export default function ApplyForm() {
                       }`}
                     />
                     <span>
-                      I agree to WhiteBox processing my application data. We never share your
+                      I agree to Blockwave processing my application data. We never share your
                       information with third parties.{" "}
                       <a href="#" className="text-blue underline">
                         Privacy Policy
@@ -267,8 +267,8 @@ export default function ApplyForm() {
                   {serverError && (
                     <p className="rounded-md border border-red-200 bg-red-50 px-4 py-3 text-[13px] text-red-600">
                       Something went wrong submitting your application. Please try again or email{" "}
-                      <a href="mailto:admissions@whiteboxconsults.com" className="underline">
-                        admissions@whiteboxconsults.com
+                      <a href="mailto:admissions@Blockwaveconsults.com" className="underline">
+                        admissions@Blockwaveconsults.com
                       </a>
                       .
                     </p>
@@ -313,7 +313,7 @@ export default function ApplyForm() {
               </div>
               <div className="mb-3 text-2xl font-bold tracking-tight">Application received.</div>
               <p className="mx-auto max-w-[520px] text-base leading-[1.7] text-[#3A4A5C]">
-                Thanks for applying to WhiteBox. Our admissions team will review your application
+                Thanks for applying to Blockwave. Our admissions team will review your application
                 and be in touch within 3 business days.
                 <br />
                 <br />

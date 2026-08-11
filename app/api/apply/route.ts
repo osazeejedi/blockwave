@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
   if (!APPS_SCRIPT_URL) {
     console.error("APPS_SCRIPT_URL environment variable is not set.");
     return NextResponse.json(
-      { error: "Server configuration error. Please contact admissions@whiteboxconsults.com" },
+      { error: "Server configuration error. Please contact admissions@Blockwaveconsults.com" },
       { status: 500 }
     );
   }

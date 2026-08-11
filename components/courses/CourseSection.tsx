@@ -96,7 +96,7 @@ export default function CourseSection({ course, background }: CourseSectionProps
                 </div>
               ))}
               <a
-                href="https://whiteboxconsults.com/apply"
+                href="https://Blockwaveconsults.com/apply"
                 className="mt-6 flex w-full items-center justify-center gap-2 rounded-md bg-blue px-5 py-3 text-sm font-semibold tracking-wide text-white transition-colors hover:bg-sky"
               >
                 Apply for This Programme →

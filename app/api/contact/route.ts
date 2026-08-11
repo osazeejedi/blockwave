@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
   if (!CONTACT_SCRIPT_URL) {
     console.error("CONTACT_SCRIPT_URL environment variable is not set.");
     return NextResponse.json(
-      { error: "Server configuration error. Please contact hello@whiteboxconsults.com" },
+      { error: "Server configuration error. Please contact hello@Blockwaveconsults.com" },
       { status: 500 }
     );
   }

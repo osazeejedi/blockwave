@@ -1,6 +1,6 @@
-# WhiteBox — Next.js Site
+# Blockwave — Next.js Site
 
-A production-grade Next.js implementation of the WhiteBox brand site, ported from the original static HTML mockups with smooth scrolling and parallax animations layered in.
+A production-grade Next.js implementation of the Blockwave brand site, ported from the original static HTML mockups with smooth scrolling and parallax animations layered in.
 
 ## Tech stack
 

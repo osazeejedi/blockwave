@@ -4,9 +4,9 @@ import ApplyHero from "@/components/apply/ApplyHero";
 import ApplyForm from "@/components/apply/ApplyForm";
 
 export const metadata = {
-  title: "Apply — WhiteBox",
+  title: "Apply — Blockwave",
   description:
-    "Apply to a WhiteBox training programme — AI & Automation Engineering, Data Science for Business, or Cybersecurity. Cohorts are limited.",
+    "Apply to a Blockwave training programme — AI & Automation Engineering, Data Science for Business, or Cybersecurity. Cohorts are limited.",
 };
 
 export default function ApplyPage() {

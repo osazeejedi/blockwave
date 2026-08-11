@@ -28,7 +28,7 @@ export const SERVICES: ServiceData[] = [
     title: "We build systems",
     titleAccent: "that scale.",
     summary:
-      "WhiteBox engineers embed with your team to architect, build, and ship production-grade software. From greenfield products to legacy modernisation, AI integration to platform engineering — we bring technical clarity at every layer.",
+      "Blockwave engineers embed with your team to architect, build, and ship production-grade software. From greenfield products to legacy modernisation, AI integration to platform engineering — we bring technical clarity at every layer.",
     ctaLabel: "Start an Engagement →",
     ctaHref: "/contact",
     deliverables: [
@@ -96,7 +96,7 @@ export const SERVICES: ServiceData[] = [
       {
         type: "Project",
         name: "Fixed-Scope Delivery",
-        desc: "A defined product, feature, or system delivered end-to-end by a WhiteBox team.",
+        desc: "A defined product, feature, or system delivered end-to-end by a Blockwave team.",
         duration: "6–16 WEEKS · FIXED-PRICE",
       },
       {
@@ -114,7 +114,7 @@ export const SERVICES: ServiceData[] = [
     title: "We solve the",
     titleAccent: "hard problems.",
     summary:
-      "WhiteBox advisors work with CTOs, founders, and engineering leaders to make the decisions that matter most — technology strategy, team structure, AI adoption, and build-vs-buy choices grounded in first principles, not frameworks.",
+      "Blockwave advisors work with CTOs, founders, and engineering leaders to make the decisions that matter most — technology strategy, team structure, AI adoption, and build-vs-buy choices grounded in first principles, not frameworks.",
     ctaLabel: "Book a Strategy Call →",
     ctaHref: "/contact",
     deliverables: [
@@ -182,7 +182,7 @@ export const SERVICES: ServiceData[] = [
       {
         type: "Retainer",
         name: "Ongoing Advisory",
-        desc: "Monthly retainer for continuous access to senior WhiteBox advisors — for strategic decisions as they arise.",
+        desc: "Monthly retainer for continuous access to senior Blockwave advisors — for strategic decisions as they arise.",
         duration: "MONTHLY · ROLLING CONTRACT",
       },
       {
@@ -200,7 +200,7 @@ export const SERVICES: ServiceData[] = [
     title: "We automate the",
     titleAccent: "work slowing you down.",
     summary:
-      "Most businesses are sitting on hundreds of hours of manual, repetitive work — reporting, approvals, data entry, customer responses, and internal processes that could be handled in seconds. WhiteBox identifies exactly where AI creates real leverage in your business and builds the automations that free your team to focus on what only humans can do.",
+      "Most businesses are sitting on hundreds of hours of manual, repetitive work — reporting, approvals, data entry, customer responses, and internal processes that could be handled in seconds. Blockwave identifies exactly where AI creates real leverage in your business and builds the automations that free your team to focus on what only humans can do.",
     ctaLabel: "Get an Automation Audit →",
     ctaHref: "/contact",
     deliverables: [

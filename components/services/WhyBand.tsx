@@ -79,7 +79,7 @@ export default function WhyBand() {
     <section className="bg-ink px-6 py-24 md:px-12 md:py-28">
       <div className="mx-auto max-w-[1280px]">
         <Reveal>
-          <div className="mb-3 font-mono text-[11px] tracking-[0.14em] text-sky">Why WhiteBox</div>
+          <div className="mb-3 font-mono text-[11px] tracking-[0.14em] text-sky">Why Blockwave</div>
           <h2 className="section-h2 mb-16 text-white">What makes us different.</h2>
         </Reveal>
         <div className="grid gap-x-10 gap-y-14 md:grid-cols-3">

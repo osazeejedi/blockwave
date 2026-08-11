@@ -27,7 +27,7 @@ export default function ApplyBand() {
         </h2>
         <p className="mb-7 text-base leading-[1.65] text-white/70">
           Seats are limited to maintain the quality of mentorship and community that defines
-          the WhiteBox experience.
+          the Blockwave experience.
         </p>
         <div className="mb-9 font-mono text-[11px] tracking-[0.14em] text-white/55">
           PROGRAMME START · SEPTEMBER 2025 · PART-TIME · ONLINE
