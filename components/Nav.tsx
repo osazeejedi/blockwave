@@ -45,7 +45,7 @@ export default function Nav() {
           <Link href="/" className="flex items-center gap-2.5" onClick={() => setMenuOpen(false)}>
             <LogoMark size={32} />
             <span className="text-[18px] font-bold tracking-[-0.5px] text-white">
-              White<span className="text-sky">Box</span>
+              Block<span className="text-sky">wave</span>
             </span>
           </Link>
 

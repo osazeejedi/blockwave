@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="mb-4 flex items-center gap-2.5">
               <LogoMark size={28} />
               <span className="text-base font-bold tracking-[-0.4px] text-white">
-                White<span className="text-sky">Box</span>
+                Block<span className="text-sky">wave</span>
               </span>
             </div>
             <p className="max-w-[280px] text-[13px] leading-[1.7] text-white/35">
